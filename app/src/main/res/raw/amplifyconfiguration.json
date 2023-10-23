@@ -1,0 +1,44 @@
+{
+  "UserAgent": "aws-amplify-cli/2.0",
+  "Version": "1.0",
+  "geo": {
+    "plugins": {
+      "awsLocationGeoPlugin": {
+        "region": "ap-southeast-1",
+        "maps": {
+          "items": {
+            "RESQMAPS": {
+              "style": "VectorGrabStandardLight"
+            }
+          },
+          "default": "RESQMAPS"
+        },
+        "searchIndices": {
+          "items": [
+            "arn:aws:geo:ap-southeast-1:714003905939:map/RESQMAPS"
+          ],
+          "default": "arn:aws:geo:ap-southeast-1:714003905939:map/RESQMAPS"
+        }
+      }
+    }
+  },
+  "auth": {
+    "plugins": {
+      "awsCognitoAuthPlugin": {
+        "UserAgent": "aws-amplify-cli/0.1.0",
+        "Version": "0.1.0",
+        "IdentityManager": {
+          "Default": {}
+        },
+        "CredentialsProvider": {
+          "CognitoIdentity": {
+            "Default": {
+              "PoolId": "ap-southeast-1:0fc192bd-913b-4e44-a7c7-59cd4b7cfa0d",
+              "Region": "ap-southeast-1"
+            }
+          }
+        }
+      }
+    }
+  }
+}

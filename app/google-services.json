@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "973851410846",
+    "firebase_url": "https://redpin-4fc3d-default-rtdb.firebaseio.com",
+    "project_id": "redpin-4fc3d",
+    "storage_bucket": "redpin-4fc3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973851410846:android:55ec34c3bf7868370b568f",
+        "android_client_info": {
+          "package_name": "com.example.resq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973851410846-49eqo6sahq729qkto765840cae9o7mer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpknDUV9K5fGnqX7kYVcfTZGDTN6D6fq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973851410846-49eqo6sahq729qkto765840cae9o7mer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

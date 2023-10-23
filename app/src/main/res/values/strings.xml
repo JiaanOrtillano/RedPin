@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RedPin</string>
+    <string name="title_activity_home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="pk.eyJ1IjoiamlhYW5vcnRpbGxhbm8iLCJhIjoiY2xlY2x6bG8zMDR4MTQwazR6dDJwM25xcyJ9.bpGS3o2wQDbioldVExoI5Q">YOUR_MAPBOX_ACCESS_TOKEN</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="civil_status">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Widowed</item>
+    </string-array>
+
+</resources>
